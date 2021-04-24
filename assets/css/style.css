@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-	color: #e6573f;
+	color: #63b441;
 	text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-	background: #ee8b7a;
+	background: #63b441;
 	color: #fff;
 }
 
@@ -409,7 +409,7 @@ button.close {
 #hero {
 	width: 100%;
 	height: 70vh;
-	background-color: rgba(59, 59, 59, 0.8);
+	/* 	background-color: rgba(59, 59, 59, 0.8); */
 	overflow: hidden;
 	padding: 0;
 	margin-bottom: -120px;
@@ -428,7 +428,8 @@ button.close {
 
 #hero .carousel-item::before {
 	content: "";
-	background-color: rgba(255, 255, 255, 0.6);
+	/* 	background-color: rgba(255, 255, 255, 1);
+ */
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -743,21 +744,30 @@ section {
 /*--------------------------------------------------------------
 # Our localidades
 --------------------------------------------------------------*/
-.bg-exaltacion {
-	background-image: url("../img/localidades/about.jpg");
+.bg-image {
 	background-position: center;
 	background-size: cover;
 	width: 100%;
+	border-radius: 10px;
 }
-
+.bg-exaltacion {
+	background-image: url("../img/localidades/exaltacion.jpg");
+}
+.bg-cordoba {
+	background-image: url("../img/localidades/cordoba.png");
+}
+.bg-salto {
+	background-image: url("../img/localidades/salto.jpg");
+}
 .localidades .icon-box {
 	text-align: center;
 	border: 1px solid #ededed;
 	padding: 80px 20px;
 	transition: all ease-in-out 0.3s;
 	width: 100%;
-	background-color: #fff200;
-	opacity: 0.5;
+	background-color: rgba(133, 233, 90, 0.8);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
 }
 
 .localidades .icon-box .icon {
@@ -771,12 +781,11 @@ section {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 20px;
-	transform-style: preserve-3d;
 }
 
 .localidades .icon-box .icon i {
 	color: #fff;
-	font-size: 28px;
+	font-size: 42px;
 }
 
 .localidades .icon-box .icon::before {
@@ -786,7 +795,7 @@ section {
 	top: -8px;
 	height: 100%;
 	width: 100%;
-	background: #fbe2dd;
+	background: #effbdd;
 	border-radius: 5px;
 	transition: all 0.3s ease-out 0s;
 	transform: translateZ(-1px);
@@ -809,8 +818,7 @@ section {
 }
 
 .localidades .icon-box:hover {
-	background: #85e95a;
-	border-color: #85e95a;
+	background-color: rgba(133, 233, 90, 0.9);
 }
 
 .localidades .icon-box:hover .icon {
@@ -819,10 +827,6 @@ section {
 
 .localidades .icon-box:hover .icon i {
 	color: #85e95a;
-}
-
-.localidades .icon-box:hover .icon::before {
-	background: #ef9383;
 }
 
 .localidades .icon-box:hover h4 a,
@@ -1350,7 +1354,7 @@ section {
 }
 
 .pricing .featured .buy-btn:hover {
-	background: #ee8b7a;
+	background: #63b441;
 }
 
 @media (max-width: 992px) {
@@ -1545,7 +1549,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-	background: #e6573f;
+	background: #63b441;
 }
 
 @-webkit-keyframes animate-loading {
@@ -2128,7 +2132,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-	background: #e6573f;
+	background: #63b441;
 }
 
 #footer .footer-top {
@@ -2200,7 +2204,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
 	padding-right: 2px;
-	color: #ec7f6d;
+	color: #85e95a;
 	font-size: 18px;
 	line-height: 1;
 }

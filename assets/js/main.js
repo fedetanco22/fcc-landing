@@ -291,10 +291,3 @@ var myModal = new bootstrap.Modal(
 document.addEventListener("DOMContentLoaded", function () {
 	myModal.toggle();
 });
-
-/* const close = document.getElementsById("close-btn");
-close.addEventListener("onclick", function () {
-	myModal.hide();
-}); */
-
-// relatedTarget

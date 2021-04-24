@@ -9,8 +9,24 @@
 		<meta content="" name="keywords" />
 
 		<!-- Favicons -->
-		<link href="assets/img/favicon.png" rel="icon" />
-		<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/img/favicon_io/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/img/favicon_io/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/img/favicon_io/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/img/favicon_io/site.webmanifest" />
 
 		<!-- Google Fonts -->
 		<link
@@ -40,22 +56,6 @@
 	</head>
 
 	<body>
-		<!-- ======= Top Bar ======= -->
-		<!--  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section> -->
-
 		<!-- ======= Header ======= -->
 		<header id="header" class="d-flex align-items-center">
 			<div class="container d-flex justify-content-between align-items-center">
@@ -281,20 +281,24 @@
 						<div
 							class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
 						>
-							<div class="icon-box">
-								<div class="icon"><i class="bx bx-map-pin"></i></div>
-								<h4><a href="">Corral de Bustos</a></h4>
-								<p>C&Oacute;RDOBA</p>
+							<div class="bg-cordoba bg-image">
+								<div class="icon-box">
+									<div class="icon"><i class="bx bx-map-pin"></i></div>
+									<h4><a href="">Corral de Bustos</a></h4>
+									<p>C&Oacute;RDOBA</p>
+								</div>
 							</div>
 						</div>
 
 						<div
 							class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
 						>
-							<div class="icon-box">
-								<div class="icon"><i class="bx bx-map-pin"></i></div>
-								<h4><a href="">Salto</a></h4>
-								<p>BUENOS AIRES</p>
+							<div class="bg-salto bg-image">
+								<div class="icon-box">
+									<div class="icon"><i class="bx bx-map-pin"></i></div>
+									<h4><a href="">Salto</a></h4>
+									<p>BUENOS AIRES</p>
+								</div>
 							</div>
 						</div>
 
@@ -302,10 +306,7 @@
 							<div class="icon-box">
 								<div class="icon"><i class="bx bx-map-pin"></i></div>
 								<h4><a href="">Pellegrini</a></h4>
-								<p>
-									At vero eos et accusamus et iusto odio dignissimos ducimus qui
-									blanditiis
-								</p>
+								<p>BUENOS AIRES</p>
 							</div>
 						</div>
 
@@ -436,7 +437,7 @@
 							id="close-btn"
 							type="button"
 							class="close"
-							data-dismiss="modal"
+							data-bs-dismiss="modal"
 							aria-label="Close"
 						>
 							<span aria-hidden="true">×</span>
@@ -590,28 +591,6 @@
 
 		<!-- ======= Footer ======= -->
 		<footer id="footer">
-			<!-- <div class="footer-newsletter">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<h4>Our Newsletter</h4>
-							<p>
-								Tamen quem nulla quae legam multos aute sint culpa legam noster
-								magna
-							</p>
-						</div>
-						<div class="col-lg-6">
-							<form action="" method="post">
-								<input type="email" name="email" /><input
-									type="submit"
-									value="Subscribe"
-								/>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
@@ -722,7 +701,7 @@
 		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 		<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-		<!-- Template Main JS File -->
+		<!-- Main JS File -->
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>

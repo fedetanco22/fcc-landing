@@ -33,6 +33,50 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# MODAL CORONAVIRUS
+--------------------------------------------------------------*/
+.modal-dialog {
+	max-width: 800px;
+	margin: 1.75rem auto;
+}
+.modal-content {
+	padding: 1rem 2rem;
+}
+.modal-header {
+	justify-content: flex-end;
+	padding: 15px 15px;
+	height: 40px;
+}
+.modal-header .close {
+	padding: 1rem;
+	font-size: 20px;
+}
+.modal-header .close span {
+	font-size: 30px;
+}
+
+.modal-body h4 {
+	font-size: 200%;
+	font-weight: 800;
+	color: #85e95a;
+}
+
+.modal-body .font-h4 {
+	font-size: 150%;
+}
+
+.modal-body h5 {
+	font-weight: 600;
+	color: #6f8607;
+}
+.font-black {
+	font-weight: 800;
+}
+
+ul.list > li::marker {
+	color: #85e95a;
+}
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -758,6 +802,15 @@ section {
 }
 .bg-salto {
 	background-image: url("../img/localidades/salto.jpg");
+}
+.bg-pellegrini {
+	background-image: url("../img/localidades/pellegrini.jpg");
+}
+.bg-tejedor {
+	background-image: url("../img/localidades/tejedor.jpeg");
+}
+.bg-treslomas {
+	background-image: url("../img/localidades/treslomas.jpg");
 }
 .localidades .icon-box {
 	text-align: center;
